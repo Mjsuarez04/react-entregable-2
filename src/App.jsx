@@ -47,7 +47,7 @@ function App() {
     <div className="App">
       {
         isLoading ? 
-          <h1>Loadin...</h1>
+          <h1>Loading...</h1>
         :
         <WeatherCard 
           weather={weather}
